@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html style = "display: grid">
+  <head>
+    <meta charset='UTF-8'>
+    <title>VisitSibenik</title>
+    <link rel="stylesheet" type="text/css" href="styles/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+   </head>
+  <body>
+      <div class="columns">
+            <div class="column">
+                  <article class="nav">
+                    
+                          <a href="#nature">NATURE</a>
+                    
+                          <a href="#sights">MAIN SIGHTS</a>
+               
+                          <a href="#culture">CULTURE AND EVENTS</a>
+                
+                          <a href="#booking">BOOK A STAY</a>
+                   
+                          <a href="#contact">CONTACT US</a>
+                    
+                  </article>
+              
+                  <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa fa-angle-double-up fa-5x" aria-hidden="true"></i></button>
+              
+                  <article class="main" style="background-image: url(images/sibe1.jpg)">
+                    <b>ŠIBENIK</b>
+                      <p>
+                        The oldest native Croatian town on the shores of the sea.<br>
+                        <b>Šibenik</b>, a gem in the Croatian Adriatic, is situated along the mouth of Krka on the most picturesque part of the eastern Adriatic coast. <br />
+                        <br>It was first mentioned in 1066 during the reign of the Croatian King Kresimir IV.
+                      </p>
+                  </article>
+              
+                   <a id="nature"></a>
+                  <article class="article" style="background-image: url(images/s11.png)">
+                    <b>NATURE</b>
+                    <br>
+                      <p>
+                        Roughly 18 kilometres (11 mi) north of the city is the <b>Krka National Park</b>,
+                        renowned for its many waterfalls, flora, fauna, and historical and archaeological remains.
+                        <br><b>The Kornati archipelago</b>, west of Šibenik, consists of 150 islands in a sea area of about 320 km2 (124 sq mi),
+                        making it the densest archipelago in the Mediterranean Sea.
+                      </p>
+                  </article>
+              
+                  <a id="sights"></a>
+                  <article class="article" style="background-image: url(images/sibenik-detalj.jpg)">
+                    <b>MAIN SIGHTS</b><br>
+                      <p>
+                        One of the things not to be missed in Sibenik is Sibenik’s cathedral – <b>Cathedral Sveti Jakov</b>, built back to 1434, 
+                        is an important architectural Renaissance building in Croatia that is listed by <b>Unesco World Heritage</b>.
+                        <br>This cathedral was built by of lime stone and marble from the stone mason’s Island of Brac in Croatia.
+                      </p>
+                  </article>
+              
+                  <a id="culture"></a>
+                  <article class="events" style="background-image: url(images/kids.jpg)">
+                    <b><br>CULTURE<br> AND EVENTS</b><br>
+                    <p>
+                      Suitable for both children and adults,
+                      <b>International Children's Festival</b> includes educational workshops, games, ensembles and more. <br>
+                      <br>Children from all over the world will take over the city and let their creativity be nurtured.
+                    </p>
+                  </article>
+              
+                  <a id="booking"></a>
+                  <article class="events" style="background-image: url(images/vd2.jpg)">
+                    <b>
+                      BOOK A STAY <br>
+                      
+                      TOP 10 APARTMENTS TODAY</b>
+                  </article>
+              
+                  <a id="contact"></a>
+                  <article class="footer">
+                    <div id="root"></div>
+                    <!--<div id="icons">
+                      <h3><i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i></h3>
+                      <h3><i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i></h3>
+                      <h3><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></h3>
+                    </div>
+                  -->
+                  </article>
+            </div>
+        </div>
+
+        <script>
+        // Kad korisnik scrolla za 20px od vrha dokumenta, pokazi botun
+        window.onscroll = function() {scrollFunction()};
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                document.getElementById("myBtn").style.display = "block";
+            } else {
+                document.getElementById("myBtn").style.display = "none";
+            }
+        }
+
+        // Kad korisnik klikne botun --> odvedi ga na pocetak dokumenta
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+        </script>
+
+    
+  </body>
+</html>

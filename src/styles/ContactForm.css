@@ -1,0 +1,33 @@
+/*.ContactForm {
+    display: grid;
+    grid-row-gap: 0.5em;
+    grid-template-columns: 400px;
+    font-size: 1.1em;
+    justify-items: stretch;
+}
+
+.ContactForm input {
+    outline: none;
+    border: solid 1px #dcdcdc;
+}
+
+.ContactForm textarea {
+    outline: none;
+    border: solid 1px #dcdcdc;
+    font-size: 1.1em;
+}
+
+.ContactForm .button, input {
+    padding: 0.5em;
+    font-size: inherit;
+}
+
+.ContactForm .button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+}
+
+*/
